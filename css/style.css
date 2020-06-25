@@ -1,0 +1,302 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header Section */
+
+nav {
+  margin: 20px 10% 0 150px;
+  padding: 0;
+  width: 80%;
+  height: 134px;
+  position: ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: #000000;
+  border-style: solid;
+  border-width: 2px
+}
+
+#logoNames {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  text-align: left;
+}
+
+#name {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#subname {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.menu {
+  margin: 50px 0 0 70%;
+  padding: 0 0 0 0;
+  width: ;
+  height: ;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  list-style: none;
+  
+}
+
+.menu li {
+  margin: 0 0 0 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  font-size: 30px;
+}
+
+.menu a {
+  color: #000000;
+}
+
+.menu a:hover {
+  color: #bb1f25;
+}
+
+/* Showcase Section */
+
+.showcase {
+  margin: 0 0 0 2%;
+  padding: 0;
+  width: 90%;
+  height: 500px;
+  position: ;
+  border-top-color: #0d4b6e;
+  border-bottom-color: #0d4b6e;
+  border-style: solid;
+  border-width: 10px;
+  border-right-color: #000000;
+  border-left-color: #000000;
+  border-radius: 80px 80px;
+  -moz-border-radius: 80px 80px;
+  -webkit-border-radius: 80px 80px;
+  -moz-box-shadow: 5px 5px 5px 5px #1f1e1e;
+  -webkit-box-shadow: 5px 5px 5px 5px #1f1e1e;
+  box-shadow: #1f1e1e;
+}
+
+#showimage {
+  margin: 0 0 0 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  position: ;
+  border-radius: 70px 70px;
+  -moz-border-radius: 70px 70px;
+  -webkit-border-radius: 70px 70px;
+}
+
+.subject {
+  margin: 15px;
+  padding: 0;
+  width: ;
+  height: ;
+  position: relative;
+  text-align:center;
+}
+
+.subject h1 {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  font-size: 40px;
+}
+
+/* Projects Section */
+
+.wrapper {
+  margin: 0 10% 0 10%;
+  padding: 0;
+  width: ;
+  height: ;
+  position: relative;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: ;
+  position: ;
+  
+}
+
+.title {
+  margin: 0 10px 10px 10px;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  border: #0d4b6e;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 5px;
+  border-right: hidden;
+  border-left: hidden;
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+}
+
+.title a {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+  color: #bb1f25;
+  font-style: italic;
+}
+
+.photobox {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: relative;
+  
+  
+}
+
+.photo  {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 200px;
+  position: ;
+  
+}
+
+.photobox p {
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: ;
+  height: ;
+  
+}
+
+/* Footer Section */
+
+footer {
+  margin: 50px 0 0 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  position: ;
+  background-color: #3d3d3d;
+}
+
+.copyrights {
+  margin: 0 0 0 34%;
+  padding: 22px 0 0 0;
+  width: ;
+  height: ;
+  position: ;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.copyrights p {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+}
+
+.copyrights ins {
+  margin: 0;
+  padding: 0;
+  width: ;
+  height: ;
+  position: ;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+    #logo {
+       width: 110px;
+       height: 140px;
+    }
+
+    header nav {
+        margin: 10px 0 0 27%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .showcase {
+      height: 350px;
+    }
+
+    #showimage {
+      height: 350px;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .copyrights {
+        margin: 0 0 0 10%;
+    }
+}
